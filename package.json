@@ -1,0 +1,25 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DATABASE_URL='postgres://localhost:5432/acme_web_seq' ./node_modules/mocha/bin/mocha spec.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ami-domadia/acme-web-seq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ami-domadia/acme-web-seq/issues"
+  },
+  "homepage": "https://github.com/ami-domadia/acme-web-seq#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1",
+    "supertest": "^3.4.2"
+  }
+}
