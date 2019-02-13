@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "DATABASE_URL='postgres://localhost:5432/acme_web_seq' ./node_modules/mocha/bin/mocha spec.js --watch"
+    "test": "DATABASE_URL='postgres://localhost:5432/acme_web_seq' ./node_modules/mocha/bin/mocha spec.js --watch",
+    "start": "node server.js"
+  
   },
   "repository": {
     "type": "git",
