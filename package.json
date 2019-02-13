@@ -22,7 +22,6 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "morgan": "^1.9.1",
-    "supertest": "^3.4.2",
-    "express": "1.0.0"
+    "supertest": "^3.4.2"
   }
 }
