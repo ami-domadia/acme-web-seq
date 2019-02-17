@@ -1,6 +1,6 @@
 const Sequelize=require('sequelize')
-//process.env.DATABASE_URL
-const orm = new Sequelize('postgres://localhost:5432/acme_web_seq', {logging: false})
+const DATABASE_URL = process.env.DATABASE_URL || 'postgres://localhost:5432/acme_web_seq'
+const orm = new Sequelize(DATABASE_URL, {logging: false})
 
 const Page = orm.define('page', {
     title: {
