@@ -20,7 +20,11 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "supertest": "^3.4.2",
+    "express": "^4.16.4",
     "morgan": "^1.9.1",
-    "supertest": "^3.4.2"
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0"
   }
 }
